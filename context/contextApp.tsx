@@ -10,6 +10,7 @@ type ContextType = {
 };
 
 // Create Context object.
+// testing
 const AppContext = createContext<ContextType>({
   dir: "ltr",
   setDir: (dir) => dir,
